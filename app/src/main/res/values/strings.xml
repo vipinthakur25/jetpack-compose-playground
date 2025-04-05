@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Jetpack-Compose-Playground</string>
+    <string name="app_name">Jetpack Compose Playground</string>
+    <string name="title_activity_state_expample">StateExpampleActivity</string>
+    <string name="state_example">State Example</string>
+    <string name="last_name">Enter last name</string>
+    <string name="first_name">Enter first name</string>
+    <string name="user_name">Enter username</string>
 </resources>
