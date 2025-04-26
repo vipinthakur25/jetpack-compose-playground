@@ -1,8 +1,34 @@
 <resources>
     <string name="app_name">Jetpack Compose Playground</string>
-    <string name="title_activity_state_expample">StateExpampleActivity</string>
+    <string name="title_activity_state_expample">StateExampleActivity</string>
     <string name="state_example">State Example</string>
     <string name="last_name">Enter last name</string>
     <string name="first_name">Enter first name</string>
     <string name="user_name">Enter username</string>
+    <string name="what_are_side_effects">What are side effects</string>
+    <string name="recomposition_example">Recomposition Example</string>
+    <string name="side_effect_example">Side Effects Example</string>
+    <string name="click_here">Click Here</string>
+    <string name="title_activity_launched_effect">LaunchedEffectActivity</string>
+    <string name="launched_effect">Launched Effect</string>
+    <string name="title_activity_remember_coroutine_scope">RememberCoroutineScopeActivity</string>
+    <string name="remember_coroutine_scope">RememberCoroutineScope</string>
+    <string name="show_snackbar">Show SnackBar</string>
+    <string name="title_activity_disposable_effect">DisposableEffectActivity</string>
+    <string name="disposable_effect">Disposable Effect</string>
+    <string name="keyboard_is_open">Keyboard is open</string>
+    <string name="title_activity_side_effect">SideEffectActivity</string>
+    <string name="side_effect">Side Effect</string>
+    <string name="title_activity_remember_updated_state">RememberUpdatedStateActivity</string>
+    <string name="remember_updated_state">Remember Updated State</string>
+    <string name="title_activity_derived_state_of">DerivedStateOfActivity</string>
+    <string name="derived_state_of">DerivedStateOf</string>
+    <string name="produce_state_of">ProduceStateOf</string>
+    <string name="title_activity_produce_state_of">ProduceStateOfActivity</string>
+    <string name="title_activity_snap_shot_flow">SnapShotFlowActivity</string>
+    <string name="snap_shot_flow">SnapshotFlow</string>
+    <string name="need_of_state_hoisitng">Need of State Hoisting</string>
+    <string name="state_hoisting">State Hoisting</string>
+    <string name="title_activity_need_of_state_hoisting">NeedOfStateHoistingActivity</string>
+    <string name="title_activity_state_hoisting">StateHoistingActivity</string>
 </resources>

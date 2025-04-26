@@ -6,7 +6,12 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.vipint.jetpack_compose_playground.basics.RecompositionActivity
+import com.vipint.jetpack_compose_playground.basics.StateExampleActivity
 import com.vipint.jetpack_compose_playground.databinding.ActivityMainBinding
+import com.vipint.jetpack_compose_playground.sideeffects.SideEffectSelectionActivity
+import com.vipint.jetpack_compose_playground.statehoisting.NeedOfStateHoistingActivity
+import com.vipint.jetpack_compose_playground.statehoisting.StateHoistingActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -23,5 +28,18 @@ class MainActivity : AppCompatActivity() {
         binding.btnStateExample.setOnClickListener {
             startActivity(Intent(this, StateExampleActivity::class.java))
         }
+        binding.btnRecompositionExample.setOnClickListener {
+            startActivity(Intent(this, RecompositionActivity::class.java))
+        }
+        binding.btnSideEffectExample.setOnClickListener {
+            startActivity(Intent(this, SideEffectSelectionActivity::class.java))
+        }
+        binding.btnNeedOfStateHoisting.setOnClickListener {
+            startActivity(Intent(this, NeedOfStateHoistingActivity::class.java))
+        }
+        binding.btnStateHoisting.setOnClickListener {
+            startActivity(Intent(this, StateHoistingActivity::class.java))
+        }
+
     }
 }

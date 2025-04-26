@@ -1,4 +1,4 @@
-package com.vipint.jetpack_compose_playground
+package com.vipint.jetpack_compose_playground.basics
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -18,6 +18,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.vipint.jetpack_compose_playground.R
 import com.vipint.jetpack_compose_playground.ui.common.TopAppBarScaffold
 import com.vipint.jetpack_compose_playground.ui.theme.JetpackComposePlaygroundTheme
 
